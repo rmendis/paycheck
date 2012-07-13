@@ -12,7 +12,7 @@ class PaycheckScalatraServlet extends ScalatraServlet {
       <body>
 	  	<form action="/einstein" method="post">
 	  		Type something in:<input type="text" name="secret" />
-	  		<button>Go!</button>
+	  		<button type="submit">Go!</button>
 	  	</form>
       </body>
     </html>
